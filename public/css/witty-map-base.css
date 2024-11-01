@@ -1,0 +1,21 @@
+/**
+ * witty map front end css
+ *
+ * @version 1
+ * @author Robert John Conepcion
+ */
+
+#witty-map-wrap {
+	height: 277px;
+	background-color: #eaeaea;
+}
+#witty-map-wrap .witty-label {
+	color: #75352d;
+	font: 600 14px arial;
+	text-align: center;
+	width: 160px;
+	background-color: rgba(234, 234, 234, 0.7);
+	padding: 2px 0px;
+	line-height: 1;
+	border-radius: 4px;
+}

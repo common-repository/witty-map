@@ -1,0 +1,37 @@
+/**
+ * Witty Map Support Default Style
+ * of button and etc.
+ *
+ * @version 1
+ * @author Robert John Concepcion
+ */
+button.witty-btn {
+    padding: 4px 0;
+    width: 100%;
+    background: rgb(63, 157, 74);
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 2px 2px 0px 0px #000;
+    position: absolute;
+    bottom: 0;
+    left: -2px;
+    cursor: pointer;
+    outline: none;
+}
+button.witty-btn:hover {
+    left: 0px;
+    bottom: -2px;
+    box-shadow: 1px 1px 0px 0px #000;
+    background: rgb(63, 157, 74);
+}
+
+a.witty-close {
+    color: #fff;
+    background: red;
+    text-decoration: none;
+    padding: 4px 9px 6px 9px;
+    line-height: 1;
+    border-radius: 4px;
+    box-shadow: 1px 1px 0px 0px #000;
+}
